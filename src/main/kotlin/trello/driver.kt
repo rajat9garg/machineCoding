@@ -87,6 +87,12 @@ fun main() {
             boardService.printBoard(null)
         )
 
+        boardService.deleteBoard(board1.id)
+
+        println(
+            "Final ${boardService.printBoard(null)}"
+        )
+
 
 
     } catch (e: Exception) {
